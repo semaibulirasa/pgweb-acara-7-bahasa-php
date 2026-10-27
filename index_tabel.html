@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Luas dan Jumlah Penduduk - HTML</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .description {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 50%;
+            min-width: 400px;
+            border: 1px solid #ccc;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #092135;
+            color: white;
+            font-weight: bold;
+        }
+        /* Efek Striped */
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        /* Efek Hover */
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Data Luas Wilayah dan Jumlah Penduduk</h2>
+    <p class="description">
+        Tabel di bawah ini menampilkan informasi mengenai luas wilayah (km²) dan jumlah penduduk di beberapa kecamatan yang berada di Kabupaten Sleman.
+    </p>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Kecamatan</th>
+                <th>Luas (km²)</th>
+                <th>Jumlah Penduduk (Jiwa)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Moyudan</td>
+                <td>27.62</td>
+                <td>31497</td>
+            </tr>
+            <tr>
+                <td>Minggir</td>
+                <td>27.27</td>
+                <td>29886</td>
+            </tr>
+            <tr>
+                <td>Seyegan</td>
+                <td>26.63</td>
+                <td>47129</td>
+            </tr>
+            <tr>
+                <td>Godean</td>
+                <td>26.84</td>
+                <td>72028</td>
+            </tr>
+            <tr>
+                <td>Gamping</td>
+                <td>29.25</td>
+                <td>108675</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
